@@ -55,7 +55,7 @@ This project is an API for managing books and stores. It allows users to perform
 ```
 
 #### Stores
-- ** POST AND PUT **:
+- **POST AND PUT**:
 ```json
 {
     "name": "Store's name",
