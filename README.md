@@ -4,8 +4,8 @@ This project is an API for managing books and stores. It allows users to perform
 
 ### Technologies Used
 
-- ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white): Laravel is used as the PHP framework for building the API.
-- ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white): MySQL is used as the relational database management system for storing data.
+- ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+- ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Other Concepts and Libraries
 
