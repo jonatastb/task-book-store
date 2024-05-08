@@ -44,7 +44,7 @@ This project is an API for managing books and stores. It allows users to perform
 ### JSON
 
 #### Books
-- **POST e PUT**:
+- **POST and PUT**:
 ```json
 {
     "name": "Name's book",
@@ -55,7 +55,7 @@ This project is an API for managing books and stores. It allows users to perform
 ```
 
 #### Stores
-- **POST AND PUT**:
+- **POST and PUT**:
 ```json
 {
     "name": "Store's name",
