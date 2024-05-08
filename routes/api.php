@@ -32,19 +32,3 @@ Route::prefix('books')->name('books.')->group(function () {
 
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
-
-// Route::prefix('api')->group(function () {
-//     Route::prefix('login-response')->name('login-response.')->group(function () {
-//         Route::get('/success', function () {
-//             return 'Login authentication complete';
-//         })->name('success');
-
-//         Route::post('/failed', function () {
-//             return 'Error logging in';
-//         })->name('failed');
-//     });
-
-//     Route::post('/logout-response', function() {
-//         return 'Logout successful';
-//     })->name('logout-response');
-// });
