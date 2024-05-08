@@ -19,7 +19,7 @@ Route::prefix('stores')->name('stores.')->group(function () {
     Route::put('/{id}', [StoreController::class, 'update'])->name('update');
     Route::delete('/{id}', [StoreController::class, 'destroy'])->name('destroy');
     Route::get('/{id}/books', [StoreController::class, 'books'])->name('books');
-    Route::delete('remove/{idStore}/{idBook}', [StoreController::class, 'deleteBook'])->name('deleteBook');
+    Route::delete('/{idStore}/books/{idBook}', [StoreController::class, 'deleteBook'])->name('deleteBook');
 });
 
 Route::prefix('books')->name('books.')->group(function () {
