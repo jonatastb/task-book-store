@@ -27,7 +27,7 @@ This project is an API for managing books and stores. It allows users to perform
 - **POST /api/books**: Create a new book.
 - **PUT /api/books/{id}**: Update a book.
 - **DELETE /api/books/{id}**: Delete a book.
-- **POST /api/books/{book_id}/stores/{store_id}**: Shows all stores that carry the book.
+- **GET /api/books/{book_id}/stores/**: Shows all stores that have this book.
 
 #### Stores
 - **GET /api/stores**: Get all stores.
@@ -35,7 +35,7 @@ This project is an API for managing books and stores. It allows users to perform
 - **PUT /api/stores/{id}**: Update a store.
 - **DELETE /api/stores/{id}**: Delete a store.
 - **GET /api/stores/{id}/books**: Shows all the books in that store.
-- **DELETE /api/stores/remove/{store_id}/{book_id}**: Dissociate a book from a store.
+- **DELETE /api/stores/{store_id}/books/{book_id}**: Dissociate a book from a store.
 
 #### User
 - **GET /api/login**: Authenticate user credentials.
