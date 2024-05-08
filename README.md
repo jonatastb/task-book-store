@@ -43,8 +43,6 @@ This project is an API for managing books and stores. It allows users to perform
 
 ### JSON
 
-### JSON
-
 #### Books
 - **POST e PUT**:
 ```json
