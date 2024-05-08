@@ -2,6 +2,10 @@
 
 namespace App\Providers;
 
+use App\Domain\Store\StoreRepository;
+use App\Domain\Book\BookRepository;
+use App\Infrastructure\EloquentStoreRepository;
+use App\Infrastructure\EloquentBookRepository;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -11,7 +15,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->bind(StoreRepository::class, EloquentStoreRepository::class);
+        $this->app->bind(BookRepository::class, EloquentBookRepository::class);
     }
 
     /**
